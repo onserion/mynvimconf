@@ -21,7 +21,6 @@ return require('packer').startup(function(use)
 		vim.cmd('colorscheme rose-pine');
         end
   })
-  
 
   -- use({ "craftzdog/solarized-osaka.nvim",
   -- 	as = 'solarized-osaka',
