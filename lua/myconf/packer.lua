@@ -64,5 +64,20 @@ return require('packer').startup(function(use)
           }
       end
   }
-  <
+
+  use {
+      'numToStr/Comment.nvim',
+      config = function()
+          require('Comment').setup()
+      end
+  }
+
+  -- TODOs
+  -- lewis6991/gitsigns.nvim
+  -- maybe hrsh7th/nvim-cmp
+  -- maybe nvim-lualine/lualine.nvim
+  -- maybe lukas-reineke/indent-blankline.nvim
+  --
 end)
+
+
