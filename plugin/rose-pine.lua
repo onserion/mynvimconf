@@ -1,6 +1,7 @@
 require('rose-pine').setup({
 	variant = 'moon',
 	dark_variant = 'main',
+    disable_italics = true,
 	groups = {
 		background = 'none',
 		background_nc = 'none',
